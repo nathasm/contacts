@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Contact do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'should be valid' do
+    Contact.new.should be_valid
+  end
 end
