@@ -41,6 +41,8 @@ group :test do
   gem "cucumber-rails"
   gem "database_cleaner"
 end
+
 gem "capybara", :group => [:development, :test]
 gem "jquery-rails"
+gem "git"
 gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
